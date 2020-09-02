@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-02T17:13:52.253Z" agent="5.0 (Windows)" etag="g-jvifPeEt0i7obGuz0_" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-02T17:17:35.983Z" agent="5.0 (Windows)" etag="I7tRiW5bXMSIHlvZRSrv" version="13.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="862" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1014" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,70 +8,90 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-0" value="Pobranie danych wejściowych" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="40" width="190" height="60" as="geometry" />
+          <mxGeometry x="70" y="60" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-1" target="zT3XRGbsFDpiWoL-lUUG-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-1" value="projekcjeψ=0,1,…,ψ-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="140" width="190" height="60" as="geometry" />
+          <mxGeometry x="70" y="160" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-3" target="zT3XRGbsFDpiWoL-lUUG-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-3" value="przeliczenie projekcji na punkty " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="230" width="190" height="60" as="geometry" />
+          <mxGeometry x="70" y="250" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zT3XRGbsFDpiWoL-lUUG-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-5" target="zT3XRGbsFDpiWoL-lUUG-7">
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-5" target="zT3XRGbsFDpiWoL-lUUG-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-5" value="dla każdego piksela w wierszu obliczana jest połowa wysokości obrazu w celu przyśpieszenia obliczeń" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="320" width="190" height="60" as="geometry" />
+          <mxGeometry x="70" y="340" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-7" target="zT3XRGbsFDpiWoL-lUUG-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-7" value="filtracja przy użyciu filtru o charakterystyce |R| lub zmodyfikowanej" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="410" width="190" height="60" as="geometry" />
+          <mxGeometry x="70" y="430" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-9" target="zT3XRGbsFDpiWoL-lUUG-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-9" value="filtracja względem współrzędnej r przy ustalonym kącie(funkcja g(r,α)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="500" width="190" height="60" as="geometry" />
+          <mxGeometry x="70" y="520" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-11" target="zT3XRGbsFDpiWoL-lUUG-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-11" value="mnożenie przez czynnik |R| i transformatę odwrotną" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="600" width="190" height="60" as="geometry" />
+          <mxGeometry x="70" y="620" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-13" target="zT3XRGbsFDpiWoL-lUUG-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-13" value="funkcja obiektu jest wyznaczana przez całkowanie przefiltrowanej funkcji względem kąta α" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="690" width="190" height="60" as="geometry" />
+          <mxGeometry x="70" y="710" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-15" target="zT3XRGbsFDpiWoL-lUUG-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-15" value="stworzenie macierzy roboczej i odczytanie sinogramu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="780" width="190" height="60" as="geometry" />
+          <mxGeometry x="70" y="800" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-17" target="zT3XRGbsFDpiWoL-lUUG-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-17" value="rekonstrukcja filtrowanego sinogramu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="870" width="190" height="60" as="geometry" />
+          <mxGeometry x="70" y="890" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zT3XRGbsFDpiWoL-lUUG-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-19" target="zT3XRGbsFDpiWoL-lUUG-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="1070" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-19" value="otrzymanie zrekonstruowanych punktów" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="960" width="190" height="60" as="geometry" />
+          <mxGeometry x="70" y="980" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zT3XRGbsFDpiWoL-lUUG-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1100" as="sourcePoint" />
+            <mxPoint x="340" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-21" value="przeskalowanie danych" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="1050" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-23" value="&lt;b&gt;M&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="1050" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-25" target="zT3XRGbsFDpiWoL-lUUG-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-25" value="obrót obrazu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-27" value="wyliczenie nowych współrzędnych dla k i l" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
