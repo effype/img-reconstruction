@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-02T17:07:21.305Z" agent="5.0 (Windows)" etag="02ca0caNl37F_d-sfmTG" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-02T17:08:46.591Z" agent="5.0 (Windows)" etag="shTy3sJ6vaeb7HyHh9D2" version="13.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="862" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,8 +22,14 @@
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-3" value="przeliczenie projekcji na punkty " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="230" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-5" target="zT3XRGbsFDpiWoL-lUUG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zT3XRGbsFDpiWoL-lUUG-5" value="dla każdego piksela w wierszu obliczana jest połowa wysokości obrazu w celu przyśpieszenia obliczeń" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="320" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-7" value="filtracja przy użyciu filtru o charakterystyce |R| lub zmodyfikowanej" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="410" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
