@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2020-09-02T17:02:41.030Z" agent="5.0 (Windows)" etag="l5_nv9nBYNNEdeRqPy9l" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-02T17:07:21.305Z" agent="5.0 (Windows)" etag="02ca0caNl37F_d-sfmTG" version="13.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="862" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-0" target="zT3XRGbsFDpiWoL-lUUG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-0" value="Pobranie danych wejściowych" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-1" target="zT3XRGbsFDpiWoL-lUUG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-1" value="projekcjeψ=0,1,…,ψ-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="140" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zT3XRGbsFDpiWoL-lUUG-3" target="zT3XRGbsFDpiWoL-lUUG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-3" value="przeliczenie projekcji na punkty " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="230" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT3XRGbsFDpiWoL-lUUG-5" value="dla każdego piksela w wierszu obliczana jest połowa wysokości obrazu w celu przyśpieszenia obliczeń" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="320" width="190" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
